@@ -3,7 +3,7 @@ CipherGuard - An Android File Encryption App (By You!)
 Introduction:
 
 CipherGuard is a secure file encryption application I developed for Android. It empowers users to protect their data by encrypting and decrypting files on their devices.
-App:link- https://drive.google.com/drive/folders/1mr4VUrGZ2ooHjMdJxF__IkBNaoorWW8D?usp=drive_link
+
 ![signal-2024-07-17-184427_002](https://github.com/user-attachments/assets/d9a6c94a-cbe4-4481-8066-b1327d9dd8b5)
 
 Features:
