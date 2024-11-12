@@ -293,7 +293,9 @@ public class MainActivity extends AppCompatActivity {
     }
     // Method to open app settings
     private void openPermissionSettings() {
-        Intent intent = new Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
+//        Intent intent = new Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
+        Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION,
+                Uri.parse("package:" + getPackageName()));
         startActivity(intent);
     }
 

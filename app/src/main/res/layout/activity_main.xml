@@ -3,8 +3,7 @@
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
-android:layout_height="match_parent"
-    android:background="@drawable/bk"
+android:layout_height="match_parent" android:background="@drawable/bk"
 tools:context=".MainActivity">
 
 <ImageView
@@ -19,22 +18,22 @@ tools:context=".MainActivity">
     app:srcCompat="@drawable/bk"
     tools:ignore="MissingConstraints" />
 
-<Button
-    android:id="@+id/button1"
-    android:layout_width="200dp"
-    android:layout_height="85dp"
-    android:layout_marginTop="100dp"
-    android:text="Encryption"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.497"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="130dp"
+        android:text="Encryption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-<Button
+    <Button
     android:id="@+id/button2"
     android:layout_width="200dp"
     android:layout_height="85dp"
-    android:layout_marginBottom="100dp"
+    android:layout_marginBottom="130dp"
     android:text="Decryption"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
