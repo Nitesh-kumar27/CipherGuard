@@ -1,4 +1,4 @@
-CipherGuard - An Android File Encryption App (By You!)
+CipherGuard - An Android File Encryption App
 
 Introduction:
 
